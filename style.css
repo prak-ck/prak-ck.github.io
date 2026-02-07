@@ -272,3 +272,12 @@ a:hover { color: var(--accent); }
   .contact { grid-template-columns: 1fr; }
   .nav { display: none; }
 }
+/* Blog thumbnail */
+.blog__thumb {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 12px 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
