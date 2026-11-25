@@ -1,100 +1,150 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Prakul Chandrakumar | Portfolio</title>
+    <title>Prakul Chandrakumar | Aviation, Technology &amp; Leadership</title>
 
     <meta
       name="description"
-      content="Evidence-first portfolio for scholarships, awards, and internships — Prakul Chandrakumar."
+      content="Prakul Chandrakumar — Aeronautics undergraduate in Singapore. Explore my aviation interests, AI projects, leadership experience, awards, and community service."
     />
 
-    <!-- Social preview -->
-    <meta property="og:title" content="Prakul Chandrakumar | Evidence-First Portfolio" />
+    <!-- Social previews -->
+    <meta property="og:title" content="Prakul Chandrakumar | Portfolio" />
     <meta
       property="og:description"
-      content="Scholarship- and internship-focused portfolio highlighting AI, leadership, and service."
+      content="Aviation, technology, leadership and service. Explore my projects, experience and recognitions."
     />
     <meta property="og:type" content="website" />
-    <!-- Update this to your actual domain when you publish -->
-    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:locale" content="en_SG" />
 
-    <!-- Optional: uncomment once you have a social image -->
-    <!-- <meta property="og:image" content="https://yourdomain.com/og-image.jpg" /> -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Prakul Chandrakumar | Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Aeronautics, AI projects, leadership and service."
+    />
 
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .skip-link {
+        position: fixed;
+        top: 0.75rem;
+        left: 0.75rem;
+        z-index: 9999;
+        transform: translateY(calc(-100% - 1rem));
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+        outline: 2px solid currentColor;
+        outline-offset: 3px;
+      }
+    </style>
   </head>
 
   <body>
-    <!-- Top Nav -->
+    <a class="skip-link btn btn--primary" href="#top">
+      Skip to content
+    </a>
+
+    <!-- Navigation -->
     <header class="topbar">
       <div class="container topbar__inner">
-        <a class="brand" href="#top" aria-label="Home">
-          <span class="brand__dot"></span>
+        <a class="brand" href="#top" aria-label="Prakul Chandrakumar — home">
+          <span class="brand__dot" aria-hidden="true"></span>
           <span class="brand__text">Prakul Chandrakumar</span>
         </a>
 
-       <nav class="nav" aria-label="Primary navigation">
-  <a href="#highlights">Highlights</a>
-  <a href="#awards">Awards</a>
-  <a href="#projects">Projects</a>
-  <a href="#leadership">Leadership</a>
-  <a href="#service">Service</a>
-  <a href="#blog">Blog</a>
-  <a href="#contact">Contact</a>
-</nav>
-
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#highlights">Highlights</a>
+          <a href="#projects">Projects</a>
+          <a href="#leadership">Leadership</a>
+          <a href="#service">Service</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <!-- Hero -->
-    <main id="top">
-      <section class="hero">
+    <main id="top" tabindex="-1">
+
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-title">
         <div class="container hero__grid">
           <div>
-            <p class="kicker">Evidence-first portfolio • Scholarships • Awards • Internships</p>
+            <p class="kicker">
+              Aeronautics undergraduate • Singapore
+            </p>
 
-            <h1 class="hero__title">
-              Building real-world skills across <span class="accent">AI</span>,
-              <span class="accent">leadership</span>, and <span class="accent">service</span>.
+            <h1 id="hero-title" class="hero__title">
+              Bringing together
+              <span class="accent">aviation</span>,
+              <span class="accent">technology</span>, and
+              <span class="accent">leadership</span>.
             </h1>
 
             <p class="hero__subtitle">
-              I’m Prakul Chandrakumar. This site is designed for reviewers:
-              clear achievements, dates, and outcomes — with a strong focus on impact.
+              I’m Prakul Chandrakumar, an Aeronautics undergraduate at
+              Embry-Riddle Aeronautical University. I’m interested in the
+              intersection of aviation, emerging technologies and human
+              performance, with experience in AI projects, creative
+              communication and military service.
             </p>
 
             <div class="hero__cta">
-              <a class="btn btn--primary" href="#projects">View projects</a>
-              <a class="btn btn--ghost" href="#awards">Scholarships &amp; awards</a>
+              <a class="btn btn--primary" href="#projects">
+                Explore my work
+              </a>
+              <a class="btn btn--ghost" href="#contact">
+                Get in touch
+              </a>
             </div>
 
             <div class="hero__meta">
               <div class="pill">Singapore</div>
-              <div class="pill">AI • Product • Problem-solving</div>
-              <div class="pill">Available for internships</div>
+              <div class="pill">Aviation • AI • Problem-solving</div>
+              <div class="pill">Open to internships</div>
             </div>
           </div>
 
-          <aside class="panel" aria-label="Quick proof">
-            <h2 class="panel__title">Quick proof</h2>
+          <aside class="panel" aria-labelledby="overview-title">
+            <h2 id="overview-title" class="panel__title">
+              At a glance
+            </h2>
+
             <ul class="proof">
               <li>
-                <span class="proof__label">Scholarship</span>
-                <span class="proof__value">Mahatma Gandhi Universal Values Scholarship (2019–2021)</span>
+                <span class="proof__label">Education</span>
+                <span class="proof__value">
+                  B.S. Aeronautics — Embry-Riddle Aeronautical University
+                  (in progress)
+                </span>
               </li>
+
               <li>
-                <span class="proof__label">Project work</span>
-                <span class="proof__value">AI Plant Identifier (Pl@ntNet API) • AI Image Generator</span>
+                <span class="proof__label">Recognition</span>
+                <span class="proof__value">
+                  Mahatma Gandhi Universal Values Scholarship (2019–2021)
+                </span>
               </li>
+
               <li>
-                <span class="proof__label">Service</span>
-                <span class="proof__value">Volunteer — Singapore Disability Sports Council (2023)</span>
+                <span class="proof__label">Technical projects</span>
+                <span class="proof__value">
+                  AI Plant Identifier (Pl@ntNet API) • AI Image Generator
+                </span>
               </li>
+
               <li>
-                <span class="proof__label">Training</span>
-                <span class="proof__value">Certified Combat Medic, Commando Unit (2024–2025)</span>
+                <span class="proof__label">Military training</span>
+                <span class="proof__value">
+                  Certified Combat Medic, Singapore Army Commando Unit
+                  (2024–2025)
+                </span>
               </li>
             </ul>
           </aside>
@@ -102,114 +152,104 @@
       </section>
 
       <!-- Highlights -->
-      <section id="highlights" class="section">
+      <section
+        id="highlights"
+        class="section"
+        aria-labelledby="highlights-title"
+      >
         <div class="container">
-          <h2 class="section__title">Highlights</h2>
+          <h2 id="highlights-title" class="section__title">
+            Highlights
+          </h2>
+
           <p class="section__subtitle">
-            A quick snapshot of strengths that scholarship and internship panels usually look for:
-            excellence, initiative, and evidence.
+            My academic interests, practical work and experiences
+            beyond the classroom.
           </p>
 
           <div class="grid3">
+
             <article class="card">
-              <h3>Scholarships &amp; Awards</h3>
+              <h3>Aviation &amp; Education</h3>
               <p>
-                Recipient of the Mahatma Gandhi Universal Values Scholarship (2019–2021) and
-                Winner of 1st Place in the Mahatma Gandhi Art Competition (2018).
+                Pursuing a Bachelor of Science in Aeronautics at
+                Embry-Riddle Aeronautical University, with a growing
+                interest in the aviation industry and the people and
+                technologies that support it.
               </p>
-              <a class="card__link" href="#awards">Go to awards →</a>
             </article>
 
             <article class="card">
-              <h3>AI Projects</h3>
+              <h3>Technology &amp; Creative Projects</h3>
               <p>
-                Built AI-based tools including a Plant Identifier using the Pl@ntNet API and an AI Image Generator (2024),
-                alongside tutoring initiatives.
+                Developed an AI Plant Identifier using the Pl@ntNet API
+                and an AI Image Generator. Explored digital media through
+                YouTube content creation and channel management.
               </p>
-              <a class="card__link" href="#projects">Go to projects →</a>
+              <a class="card__link" href="#projects">
+                Explore projects →
+              </a>
             </article>
 
             <article class="card">
-              <h3>Leadership &amp; Communication</h3>
+              <h3>Leadership &amp; Service</h3>
               <p>
-                Director of Design (Hues of Purple @ GIIS) and Director of Marketing &amp; Communications (GIIS FST Club),
-                plus Model Congress participation.
+                Held student leadership roles in design and marketing,
+                trained as a combat medic, and contributed to community
+                initiatives through volunteering and AI tutoring.
               </p>
-              <a class="card__link" href="#leadership">Go to leadership →</a>
+              <a class="card__link" href="#leadership">
+                Explore leadership →
+              </a>
             </article>
-          </div>
-        </div>
-      </section>
 
-      <!-- Awards -->
-      <section id="awards" class="section section--alt">
-        <div class="container">
-          <h2 class="section__title">Scholarships &amp; Awards</h2>
-          <p class="section__subtitle">Selected recognitions, with years and what they represent.</p>
-
-          <div class="timeline">
-            <div class="titem">
-              <div class="titem__when">2019–2021</div>
-              <div class="titem__body">
-                <h3>Mahatma Gandhi Universal Values Scholarship</h3>
-                <p>Recognized for all-round excellence across academics, leadership, and community contributions.</p>
-              </div>
-            </div>
-
-            <div class="titem">
-              <div class="titem__when">2018</div>
-              <div class="titem__body">
-                <h3>1st Place — Mahatma Gandhi Art Competition</h3>
-                <p>
-                  Awarded for an innovative design concept reflecting the origins of Gandhi’s non-violence movement.
-                </p>
-              </div>
-            </div>
-
-            <div class="titem">
-              <div class="titem__when">2016–2017</div>
-              <div class="titem__body">
-                <h3>Class Topper (Rank 3) — SOF National Cyber Olympiad</h3>
-                <p>Demonstrated strong analytical and problem-solving ability through national-level competition performance.</p>
-              </div>
-            </div>
-
-            <div class="titem">
-              <div class="titem__when">2021</div>
-              <div class="titem__body">
-                <h3>3rd Place — GIIS Creator’s Summit</h3>
-                <p>
-                  Developed an innovative drone leasing concept to support farmers with a cost-effective productivity solution.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       <!-- Projects -->
-      <section id="projects" class="section">
+      <section
+        id="projects"
+        class="section section--alt"
+        aria-labelledby="projects-title"
+      >
         <div class="container">
-          <h2 class="section__title">Projects</h2>
+          <h2 id="projects-title" class="section__title">
+            Selected Projects
+          </h2>
+
           <p class="section__subtitle">
-            A small set of projects that show initiative and execution.
+            Independent projects and creative initiatives spanning
+            applied AI, product thinking and digital communication.
           </p>
 
           <div class="grid2">
+
             <article class="card card--project">
               <div class="card__top">
                 <h3>AI Plant Identifier</h3>
-                <span class="tag">2024</span>
+                <time class="tag" datetime="2024">2024</time>
               </div>
+
               <p>
-                Developed a plant identifier leveraging the Pl@ntNet API for precise analysis and identification.
+                Developed a plant identification tool using the Pl@ntNet
+                API, exploring how AI-powered image recognition can be
+                applied to a practical, everyday use case.
               </p>
+
               <ul class="bullets">
-                <li>Skills: API integration, UI thinking, classification workflows</li>
+                <li>API integration and image classification workflows</li>
+                <li>User interface and product thinking</li>
               </ul>
+
               <div class="card__actions">
-                <a class="btn btn--small btn--ghost" href="https://github.com/prak-ck" target="_blank" rel="noreferrer">
-                  GitHub
+                <a
+                  class="btn btn--small btn--ghost"
+                  href="https://github.com/prak-ck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub profile ↗
                 </a>
               </div>
             </article>
@@ -217,17 +257,29 @@
             <article class="card card--project">
               <div class="card__top">
                 <h3>AI Image Generator</h3>
-                <span class="tag">2024</span>
+                <time class="tag" datetime="2024">2024</time>
               </div>
+
               <p>
-                Designed an AI-powered image generator that transforms creative ideas into distinctive visual artworks.
+                Designed an AI-powered image generation tool to
+                transform creative prompts into visual artworks,
+                exploring the relationship between generative AI,
+                creativity and user experience.
               </p>
+
               <ul class="bullets">
-                <li>Skills: product flow, prompt design, visual creativity</li>
+                <li>Prompt design and generative AI</li>
+                <li>Product workflows and visual communication</li>
               </ul>
+
               <div class="card__actions">
-                <a class="btn btn--small btn--ghost" href="https://github.com/prak-ck" target="_blank" rel="noreferrer">
-                  GitHub
+                <a
+                  class="btn btn--small btn--ghost"
+                  href="https://github.com/prak-ck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub profile ↗
                 </a>
               </div>
             </article>
@@ -235,78 +287,159 @@
             <article class="card card--project">
               <div class="card__top">
                 <h3>Personal YouTube Channel</h3>
-                <span class="tag">2023</span>
+                <time class="tag" datetime="2023">2023</time>
               </div>
+
               <p>
-                Ran a creative YouTube channel as an extracurricular, showcasing digital media and storytelling.
+                Ran a personal YouTube channel as an extracurricular
+                project, gaining hands-on experience in digital
+                storytelling and creative content production.
               </p>
+
               <ul class="bullets">
-                <li>Skills: content planning, communication, consistency</li>
+                <li>Content planning and digital storytelling</li>
+                <li>Creative communication and consistency</li>
               </ul>
             </article>
 
             <article class="card card--project">
               <div class="card__top">
-                <h3>Grandmother’s YouTube Channel Growth</h3>
-                <span class="tag">2020</span>
+                <h3>YouTube Channel Management</h3>
+                <time class="tag" datetime="2020">2020</time>
               </div>
+
               <p>
-                Managed my grandmother’s YouTube channel, focusing on strategic content creation and audience engagement.
+                Managed my grandmother’s YouTube channel, contributing
+                to its development through content planning, creative
+                production and audience engagement.
               </p>
+
               <ul class="bullets">
-                <li>Skills: audience thinking, creative production, iteration</li>
+                <li>Audience engagement and content strategy</li>
+                <li>Creative production and iteration</li>
               </ul>
             </article>
+
           </div>
         </div>
       </section>
 
       <!-- Leadership -->
-      <section id="leadership" class="section section--alt">
+      <section
+        id="leadership"
+        class="section"
+        aria-labelledby="leadership-title"
+      >
         <div class="container">
-          <h2 class="section__title">Leadership &amp; Initiative</h2>
+          <h2 id="leadership-title" class="section__title">
+            Leadership &amp; Initiative
+          </h2>
+
           <p class="section__subtitle">
-            Roles that show responsibility, communication, and the ability to execute with others.
+            Experiences in creative leadership, communication,
+            teamwork and collaborative problem-solving.
           </p>
 
           <div class="grid2">
+
             <article class="card">
               <h3>Director of Design — Hues of Purple @ GIIS</h3>
-              <p>Led creative initiatives and contributed to projects as part of the design department.</p>
+              <p>
+                Led creative initiatives within the design department,
+                contributing to the visual direction and execution of
+                student-led projects.
+              </p>
             </article>
 
             <article class="card">
-              <h3>Director of Marketing &amp; Communications — GIIS Food Science &amp; Technology Club</h3>
-              <p>Drove communication and outreach initiatives as Marketing &amp; Communications lead (2021–2022).</p>
+              <div class="card__top">
+                <h3>
+                  Director of Marketing &amp; Communications —
+                  GIIS Food Science &amp; Technology Club
+                </h3>
+                <span class="tag">2021–2022</span>
+              </div>
+
+              <p>
+                Led the club’s communication and outreach initiatives,
+                supporting its activities through marketing and
+                communication efforts.
+              </p>
             </article>
 
             <article class="card">
-              <h3>GIIS Model Congress</h3>
-              <p>Represented Senator Richard Blumenthal in debates and policy discussions (2019).</p>
+              <div class="card__top">
+                <h3>GIIS Model Congress</h3>
+                <time class="tag" datetime="2019">2019</time>
+              </div>
+
+              <p>
+                Represented Senator Richard Blumenthal in simulated
+                legislative debates and policy discussions, developing
+                experience in public speaking and argumentation.
+              </p>
             </article>
 
             <article class="card">
               <h3>MIT Future Worlds Challenge</h3>
-              <p>Developed solutions to global challenges and gained experience in applied problem-solving.</p>
+              <p>
+                Participated in a challenge focused on developing
+                solutions to global problems, applying creative thinking
+                and collaborative problem-solving.
+              </p>
             </article>
+
           </div>
         </div>
       </section>
 
-      <!-- Service -->
-      <section id="service" class="section">
+      <!-- Service and Training -->
+      <section
+        id="service"
+        class="section section--alt"
+        aria-labelledby="service-title"
+      >
         <div class="container">
-          <h2 class="section__title">Service &amp; Teaching</h2>
-          <p class="section__subtitle">Proof of impact beyond academics: teaching and community contribution.</p>
+          <h2 id="service-title" class="section__title">
+            Service, Teaching &amp; Training
+          </h2>
+
+          <p class="section__subtitle">
+            Learning through service, taking responsibility for others,
+            and sharing knowledge.
+          </p>
 
           <div class="grid2">
+
             <article class="card">
               <div class="card__top">
-                <h3>Volunteer — Singapore Disability Sports Council (SDSC)</h3>
-                <span class="tag">2023</span>
+                <h3>
+                  Certified Combat Medic — Singapore Army Commando Unit
+                </h3>
+                <span class="tag">2024–2025</span>
               </div>
+
               <p>
-                Supported para-sports events and disability sports tryouts, promoting inclusivity through active engagement.
+                Certified in emergency care and patient well-being
+                in high-pressure environments. Military medical
+                training reinforced the importance of discipline,
+                teamwork and responsibility.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card__top">
+                <h3>
+                  Volunteer — Singapore Disability Sports Council (SDSC)
+                </h3>
+                <time class="tag" datetime="2023">2023</time>
+              </div>
+
+              <p>
+                Supported para-sports events and disability sports
+                tryouts, contributing to an inclusive sporting
+                environment through volunteering and participant
+                engagement.
               </p>
             </article>
 
@@ -315,153 +448,233 @@
                 <h3>AI Tutor</h3>
                 <span class="tag">2019 &amp; 2024</span>
               </div>
+
               <p>
-                Conducted introductory AI tutoring sessions for school students and international engineering peers,
-                focusing on fundamentals and practical understanding.
+                Conducted introductory AI tutoring sessions for school
+                students and international engineering peers, helping
+                learners develop a practical understanding of
+                fundamental AI concepts.
               </p>
             </article>
 
             <article class="card">
               <div class="card__top">
-                <h3>Certified Combat Medic, Commando Unit (Singapore Army)</h3>
-                <span class="tag">2024–2025</span>
+                <h3>AI Coursework</h3>
+                <time class="tag" datetime="2023">2023</time>
               </div>
+
               <p>
-                Certified in emergency care and patient well-being in high-pressure environments.
+                Completed two AI courses covering artificial
+                intelligence foundations and Python for AI, building
+                a foundation for further practical projects.
               </p>
             </article>
 
-            <article class="card">
-              <div class="card__top">
-                <h3>AI Coursework Completion</h3>
-                <span class="tag">2023</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scholarships and Awards -->
+      <section
+        id="awards"
+        class="section"
+        aria-labelledby="awards-title"
+      >
+        <div class="container">
+          <h2 id="awards-title" class="section__title">
+            Scholarships &amp; Awards
+          </h2>
+
+          <p class="section__subtitle">
+            Selected recognitions for all-round excellence, innovation,
+            analytical thinking and creativity.
+          </p>
+
+          <div class="timeline">
+
+            <div class="titem">
+              <div class="titem__when">2019–2021</div>
+              <div class="titem__body">
+                <h3>Mahatma Gandhi Universal Values Scholarship</h3>
+                <p>
+                  Recognized for all-round excellence across academics,
+                  leadership and community contributions.
+                </p>
               </div>
-              <p>
-                Completed two AI courses covering foundations and Python for AI.
-              </p>
-            </article>
+            </div>
+
+            <div class="titem">
+              <div class="titem__when">2021</div>
+              <div class="titem__body">
+                <h3>3rd Place — GIIS Creator’s Summit</h3>
+                <p>
+                  Developed a drone leasing concept intended to provide
+                  farmers with a cost-effective productivity solution.
+                </p>
+              </div>
+            </div>
+
+            <div class="titem">
+              <div class="titem__when">2018</div>
+              <div class="titem__body">
+                <h3>1st Place — Mahatma Gandhi Art Competition</h3>
+                <p>
+                  Recognized for a design concept reflecting the origins
+                  of Gandhi’s non-violence movement.
+                </p>
+              </div>
+            </div>
+
+            <div class="titem">
+              <div class="titem__when">2016–2017</div>
+              <div class="titem__body">
+                <h3>
+                  Class Topper (Rank 3) — SOF National Cyber Olympiad
+                </h3>
+                <p>
+                  Recognition for analytical thinking and
+                  problem-solving in a cyber olympiad competition.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
       <!-- Skills -->
-      <section class="section section--alt">
+      <section
+        id="skills"
+        class="section section--alt"
+        aria-labelledby="skills-title"
+      >
         <div class="container">
-          <h2 class="section__title">Skills Snapshot</h2>
-          <p class="section__subtitle">A reviewer-friendly summary (keep it honest and specific).</p>
+          <h2 id="skills-title" class="section__title">
+            Skills &amp; Capabilities
+          </h2>
+
+          <p class="section__subtitle">
+            Skills developed through coursework, personal projects,
+            student leadership and service.
+          </p>
 
           <div class="skills">
+
             <div class="skills__group">
-              <h3>AI / Tech</h3>
+              <h3>Technology &amp; AI</h3>
               <div class="chips">
                 <span class="chip">Python (AI foundations)</span>
                 <span class="chip">API integration</span>
                 <span class="chip">AI project structuring</span>
                 <span class="chip">Prototyping</span>
+                <span class="chip">Prompt design</span>
               </div>
             </div>
 
             <div class="skills__group">
-              <h3>Communication</h3>
+              <h3>Creative &amp; Communication</h3>
               <div class="chips">
-                <span class="chip">Tutoring</span>
+                <span class="chip">Visual communication</span>
+                <span class="chip">Content creation</span>
+                <span class="chip">Marketing &amp; outreach</span>
                 <span class="chip">Public speaking &amp; debate</span>
-                <span class="chip">Content creation (YouTube)</span>
+                <span class="chip">Tutoring</span>
               </div>
             </div>
 
             <div class="skills__group">
-              <h3>Leadership</h3>
+              <h3>Leadership &amp; Service</h3>
               <div class="chips">
                 <span class="chip">Design leadership</span>
-                <span class="chip">Marketing &amp; outreach</span>
                 <span class="chip">Team collaboration</span>
+                <span class="chip">Problem-solving</span>
+                <span class="chip">Emergency care training</span>
               </div>
             </div>
+
           </div>
         </div>
       </section>
-<!-- Blog -->
-<section id="blog" class="section">
-  <div class="container">
-    <h2 class="section__title">Blog</h2>
-    <p class="section__subtitle">
-      Short reflections and field notes — written to show technical curiosity, communication, and professional growth.
-    </p>
-
-    <div class="grid2">
-      <article class="card card--project">
-        <div class="card__top">
-          <h3>The Dual Perspective: Bridging Passion and Representation at the Flight Line</h3>
-          <span class="tag">2026</span>
-        </div>
-
-        <!-- Your controlled photo (only you can replace this file on your hosting) -->
-        <img
-          class="blog__thumb"
-          src="assets/blog/dual-perspective.jpg"
-          alt="Flight line photo from the event."
-          loading="lazy"
-        />
-
-        <p>
-          Experiencing aviation from two complementary vantage points: observing engineering in motion and representing
-          Embry-Riddle Aeronautical University.
-        </p>
-
-        <div class="card__actions">
-          <a class="btn btn--small btn--ghost" href="blog/dual-perspective.html">Read →</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
 
       <!-- Contact -->
-      <section id="contact" class="section">
+      <section
+        id="contact"
+        class="section section--alt"
+        aria-labelledby="contact-title"
+      >
         <div class="container">
-          <h2 class="section__title">Contact</h2>
+          <h2 id="contact-title" class="section__title">
+            Let’s Connect
+          </h2>
+
           <p class="section__subtitle">
-            For scholarships, internships, and collaborations — best way to reach me:
+            I welcome internship opportunities, scholarship inquiries
+            and conversations about aviation, technology and
+            collaborative projects.
           </p>
 
           <div class="contact card">
+
             <div>
               <div class="contact__label">Name</div>
-              <div class="contact__value">Prakul Chandrakumar</div>
+              <div class="contact__value">
+                Prakul Chandrakumar
+              </div>
             </div>
 
             <div>
               <div class="contact__label">Email</div>
               <div class="contact__value">
-                <a href="mailto:prackck@gmail.com">prackck@gmail.com</a>
+                <a href="mailto:prackck@gmail.com">
+                  prackck@gmail.com
+                </a>
               </div>
             </div>
 
             <div>
               <div class="contact__label">Phone</div>
-              <div class="contact__value">+65 9028 7566</div>
+              <div class="contact__value">
+                <a href="tel:+6590287566">
+                  +65 9028 7566
+                </a>
+              </div>
             </div>
 
             <div>
               <div class="contact__label">GitHub</div>
               <div class="contact__value">
-                <a href="https://github.com/prak-ck" target="_blank" rel="noreferrer">github.com/prak-ck</a>
+                <a
+                  href="https://github.com/prak-ck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/prak-ck
+                </a>
               </div>
             </div>
+
           </div>
         </div>
       </section>
+
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
       <div class="container footer__inner">
-        <p>© <span id="y"></span> Prakul Chandrakumar • Designed for scholarship and internship evaluation.</p>
+        <p>
+          © <span id="y">2026</span> Prakul Chandrakumar
+          • Personal portfolio
+        </p>
       </div>
     </footer>
 
+    <!-- Automatically update copyright year -->
     <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
+      document.getElementById("y").textContent =
+        new Date().getFullYear();
     </script>
+
   </body>
 </html>
+
